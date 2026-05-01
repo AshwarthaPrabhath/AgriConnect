@@ -1,0 +1,123 @@
+{
+  "Maharashtra": {
+    "traditional_crops": ["Cotton", "Soybean", "Jowar", "Sugarcane", "Tur"],
+    "soil_type": "Deep Black Cotton Soil (Vertisol)",
+    "avg_rainfall_mm": 800,
+    "unexplored_crops": [
+      { "name": "Quinoa", "why": "High protein, drought-tolerant, premium market price" },
+      { "name": "Moringa", "why": "Fast growing, high yield of leaves & pods, medicinal value" },
+      { "name": "Dragon Fruit", "why": "Thrives in black soil, 5-year perennial, high market demand" },
+      { "name": "Turmeric", "why": "Suits black soil, organic market demand is very high" }
+    ]
+  },
+  "Punjab": {
+    "traditional_crops": ["Wheat", "Rice", "Maize", "Cotton"],
+    "soil_type": "Alluvial Sandy Loam",
+    "avg_rainfall_mm": 600,
+    "unexplored_crops": [
+      { "name": "Sunflower", "why": "Short duration, less water than rice, good edible oil value" },
+      { "name": "Lentil", "why": "Fixes nitrogen reducing fertiliser cost for next wheat crop" },
+      { "name": "Mushroom", "why": "Wheat straw is ideal substrate; high protein yield per sqm" },
+      { "name": "Herbs (Basil)", "why": "High value per acre, low water need, export potential" }
+    ]
+  },
+  "Rajasthan": {
+    "traditional_crops": ["Bajra", "Moth Beans", "Cluster Beans", "Sesame"],
+    "soil_type": "Desert Sandy Soil (Aridisol)",
+    "avg_rainfall_mm": 300,
+    "unexplored_crops": [
+      { "name": "Chia Seeds", "why": "Extremely drought-tolerant, superfood demand rising globally" },
+      { "name": "Jojoba", "why": "Deep roots, survives on 200mm rainfall, industrial oil value" },
+      { "name": "Aloe Vera", "why": "Thrives in sandy soil, zero water stress, cosmetics market" },
+      { "name": "Pomegranate", "why": "Well-suited to arid zones, premium fruit export value" }
+    ]
+  },
+  "Tamil Nadu": {
+    "traditional_crops": ["Rice", "Groundnut", "Sugarcane", "Cotton", "Banana"],
+    "soil_type": "Red Laterite Soil",
+    "avg_rainfall_mm": 950,
+    "unexplored_crops": [
+      { "name": "Vanilla", "why": "High-value spice, intercrop under coconut, rising demand" },
+      { "name": "Turmeric", "why": "Suited to red laterite, organics market is premium" },
+      { "name": "Black Pepper", "why": "Intercrop with coconut, stable export market" },
+      { "name": "Stevia", "why": "Natural sweetener, high per-acre income, water-efficient" }
+    ]
+  },
+  "Karnataka": {
+    "traditional_crops": ["Ragi", "Maize", "Cotton", "Sugarcane", "Coffee"],
+    "soil_type": "Red Sandy Loam",
+    "avg_rainfall_mm": 1050,
+    "unexplored_crops": [
+      { "name": "Avocado", "why": "Emerging demand, suitable for hilly regions" },
+      { "name": "Passion Fruit", "why": "High value per acre, suits hill tracts, export-ready" },
+      { "name": "Lemongrass", "why": "Essential oil plant, minimal inputs, wasteland suitable" },
+      { "name": "Ginger", "why": "Intercrop with arecanut/coconut, high returns" }
+    ]
+  },
+  "Kerala": {
+    "traditional_crops": ["Coconut", "Rubber", "Rice", "Banana", "Tapioca"],
+    "soil_type": "Laterite and Coastal Alluvial",
+    "avg_rainfall_mm": 2500,
+    "unexplored_crops": [
+      { "name": "Cocoa", "why": "Intercrop under coconut, chocolate industry demand" },
+      { "name": "Nutmeg", "why": "High spice value, Kerala's forgotten spice resurgence" },
+      { "name": "Jackfruit Intercrop", "why": "Zero input fruit tree, food security crop" },
+      { "name": "Vetiver Grass", "why": "Soil conservation + essential oil, revenue from waste land" }
+    ]
+  },
+  "West Bengal": {
+    "traditional_crops": ["Rice", "Jute", "Mustard", "Potato", "Tea"],
+    "soil_type": "Gangetic Alluvial",
+    "avg_rainfall_mm": 1400,
+    "unexplored_crops": [
+      { "name": "Quinoa", "why": "Cool season crop replacing mustard, high protein demand" },
+      { "name": "Broccoli", "why": "Winter crop, urban market premium, water-efficient" },
+      { "name": "Mushroom (Oyster)", "why": "Rice straw substrate, year-round income supplement" },
+      { "name": "Strawberry", "why": "Winter season crop, hillside districts, export potential" }
+    ]
+  },
+  "Andhra Pradesh": {
+    "traditional_crops": ["Rice", "Cotton", "Groundnut", "Chilli", "Sugarcane"],
+    "soil_type": "Alluvial and Black Soil Mix",
+    "avg_rainfall_mm": 900,
+    "unexplored_crops": [
+      { "name": "Aloe Vera", "why": "Low water, pharmac and cosmetics market growing rapidly" },
+      { "name": "Papaya", "why": "Fast crop cycle, high demand, suits coastal alluvial" },
+      { "name": "Moringa", "why": "All parts sellable: leaves, pods, seeds — high ROI" },
+      { "name": "Dragon Fruit", "why": "Rising demand, suits warm dry climate, perennial" }
+    ]
+  },
+  "Uttar Pradesh": {
+    "traditional_crops": ["Wheat", "Rice", "Sugarcane", "Mustard", "Potato"],
+    "soil_type": "Gangetic Alluvial Loam",
+    "avg_rainfall_mm": 850,
+    "unexplored_crops": [
+      { "name": "Turmeric", "why": "High demand, suits alluvial soil, organic premium" },
+      { "name": "Lentil / Masur", "why": "Rabi crop, N-fixer before wheat, high protein value" },
+      { "name": "Ashwagandha", "why": "Ayurvedic herb, drought-tolerant, premium market" },
+      { "name": "Banana Intercrop", "why": "Sugarcane replacement trial, year-round income" }
+    ]
+  },
+  "Gujarat": {
+    "traditional_crops": ["Groundnut", "Cotton", "Wheat", "Bajra", "Tobacco"],
+    "soil_type": "Sandy Loam and Black Cotton",
+    "avg_rainfall_mm": 700,
+    "unexplored_crops": [
+      { "name": "Isabgol (Psyllium)", "why": "Medicinal crop, low water, Gujarat soils ideal, export" },
+      { "name": "Castor", "why": "Industrial oil crop, drought-tolerant, black soil suitable" },
+      { "name": "Fennel", "why": "Spice crop, good for dry zones, premium export value" },
+      { "name": "Chia Seeds", "why": "Superfood, suits semi-arid Gujarat conditions" }
+    ]
+  },
+  "Madhya Pradesh": {
+    "traditional_crops": ["Wheat", "Soybean", "Chickpea", "Maize", "Cotton"],
+    "soil_type": "Deep Black and Red Soil Mix",
+    "avg_rainfall_mm": 900,
+    "unexplored_crops": [
+      { "name": "Quinoa", "why": "Rabi alternative to wheat, nutrient dense, export ready" },
+      { "name": "Linseed (Flaxseed)", "why": "Omega-3 superfood market, suits black soil winter" },
+      { "name": "safflower", "why": "Edible oil crop, rain-fed possible, drought-tolerant" },
+      { "name": "Stevia", "why": "Zero-calorie sweetener, dedicated buy-back contracts" }
+    ]
+  }
+}

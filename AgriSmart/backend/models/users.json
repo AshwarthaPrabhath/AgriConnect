@@ -1,0 +1,12 @@
+{
+    "test@gmail.com": {
+        "password": "password123",
+        "name": "Mani",
+        "phone": "8919810717"
+    },
+    "test1@gmail.com": {
+        "password": "12345678",
+        "name": "mani",
+        "phone": "8919810717"
+    }
+}

@@ -1,0 +1,5054 @@
+{
+  "crops": [
+    {
+      "name": "Rice",
+      "label": "rice",
+      "npk_required": {
+        "N": [
+          59,
+          121
+        ],
+        "P": [
+          30,
+          60
+        ],
+        "K": [
+          30,
+          50
+        ]
+      },
+      "npk_delta": {
+        "N": -30,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "high",
+      "seasons": [
+        "Kharif",
+        "Rabi"
+      ],
+      "regions": [
+        "Tamil Nadu",
+        "West Bengal",
+        "Andhra Pradesh",
+        "Kerala",
+        "Odisha",
+        "Assam",
+        "Punjab",
+        "Haryana",
+        "Bihar",
+        "Uttar Pradesh"
+      ],
+      "yield_score": 0.77,
+      "description": "Rice is a foundational cereal crucial for Indian food security.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "16 kg per acre",
+        "harvest_days": 167,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 5361,
+        "yield_per_plant_kg_month": 0.59,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.47
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.81
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.16
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 6,
+        "vermicompost_kg": 529,
+        "earthworms_count": 1166,
+        "cowdung_slurry_litres": 940,
+        "neem_cake_kg": 173,
+        "biofertilizer": "Azospirillum (600g/acre) to broadly aid nitrogen utilization in grasses.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Wheat",
+      "label": "wheat",
+      "npk_required": {
+        "N": [
+          60,
+          125
+        ],
+        "P": [
+          30,
+          60
+        ],
+        "K": [
+          30,
+          50
+        ]
+      },
+      "npk_delta": {
+        "N": -30,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Rabi"
+      ],
+      "regions": [
+        "Punjab",
+        "Haryana",
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Rajasthan",
+        "Bihar",
+        "Gujarat"
+      ],
+      "yield_score": 0.85,
+      "description": "Wheat is a foundational cereal crucial for Indian food security.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "16 kg per acre",
+        "harvest_days": 73,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 870,
+        "yield_per_plant_kg_month": 0.35,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.18
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.93
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.16
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 5,
+        "vermicompost_kg": 749,
+        "earthworms_count": 1109,
+        "cowdung_slurry_litres": 670,
+        "neem_cake_kg": 92,
+        "biofertilizer": "Azospirillum (600g/acre) to broadly aid nitrogen utilization in grasses.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Maize",
+      "label": "maize",
+      "npk_required": {
+        "N": [
+          61,
+          116
+        ],
+        "P": [
+          30,
+          60
+        ],
+        "K": [
+          30,
+          50
+        ]
+      },
+      "npk_delta": {
+        "N": -30,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Kharif",
+        "Rabi"
+      ],
+      "regions": [
+        "Karnataka",
+        "Andhra Pradesh",
+        "Rajasthan",
+        "Madhya Pradesh",
+        "Bihar",
+        "Maharashtra",
+        "Uttar Pradesh"
+      ],
+      "yield_score": 0.8,
+      "description": "Maize is a foundational cereal crucial for Indian food security.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "15 kg per acre",
+        "harvest_days": 156,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 1496,
+        "yield_per_plant_kg_month": 0.68,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.11
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.42
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.17
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 7,
+        "vermicompost_kg": 781,
+        "earthworms_count": 750,
+        "cowdung_slurry_litres": 458,
+        "neem_cake_kg": 180,
+        "biofertilizer": "Azospirillum (600g/acre) to broadly aid nitrogen utilization in grasses.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Pearl Millet (Bajra)",
+      "label": "pearl",
+      "npk_required": {
+        "N": [
+          63,
+          125
+        ],
+        "P": [
+          30,
+          60
+        ],
+        "K": [
+          30,
+          50
+        ]
+      },
+      "npk_delta": {
+        "N": -30,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Kharif"
+      ],
+      "regions": [
+        "Rajasthan",
+        "Gujarat",
+        "Maharashtra",
+        "Haryana",
+        "Uttar Pradesh"
+      ],
+      "yield_score": 0.74,
+      "description": "Pearl Millet (Bajra) is a foundational millet crucial for Indian food security.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "6 kg per acre",
+        "harvest_days": 105,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 2468,
+        "yield_per_plant_kg_month": 0.2,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.46
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.77
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.39
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 9,
+        "vermicompost_kg": 308,
+        "earthworms_count": 413,
+        "cowdung_slurry_litres": 831,
+        "neem_cake_kg": 106,
+        "biofertilizer": "Azospirillum (600g/acre) to broadly aid nitrogen utilization in grasses.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Sorghum (Jowar)",
+      "label": "sorghum",
+      "npk_required": {
+        "N": [
+          63,
+          119
+        ],
+        "P": [
+          30,
+          60
+        ],
+        "K": [
+          30,
+          50
+        ]
+      },
+      "npk_delta": {
+        "N": -30,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Kharif",
+        "Rabi"
+      ],
+      "regions": [
+        "Maharashtra",
+        "Karnataka",
+        "Andhra Pradesh",
+        "Tamil Nadu",
+        "Madhya Pradesh"
+      ],
+      "yield_score": 0.78,
+      "description": "Sorghum (Jowar) is a foundational millet crucial for Indian food security.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "13 kg per acre",
+        "harvest_days": 142,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 1513,
+        "yield_per_plant_kg_month": 0.73,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.13
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.97
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.13
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 9,
+        "vermicompost_kg": 417,
+        "earthworms_count": 1237,
+        "cowdung_slurry_litres": 904,
+        "neem_cake_kg": 181,
+        "biofertilizer": "Azospirillum (600g/acre) to broadly aid nitrogen utilization in grasses.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Finger Millet (Ragi)",
+      "label": "finger",
+      "npk_required": {
+        "N": [
+          65,
+          118
+        ],
+        "P": [
+          30,
+          60
+        ],
+        "K": [
+          30,
+          50
+        ]
+      },
+      "npk_delta": {
+        "N": -30,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Kharif",
+        "Rabi"
+      ],
+      "regions": [
+        "Karnataka",
+        "Tamil Nadu",
+        "Uttarakhand",
+        "Maharashtra",
+        "Odisha"
+      ],
+      "yield_score": 0.8,
+      "description": "Finger Millet (Ragi) is a foundational millet crucial for Indian food security.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "23 kg per acre",
+        "harvest_days": 143,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 5000,
+        "yield_per_plant_kg_month": 0.17,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.26
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.72
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.33
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 11,
+        "vermicompost_kg": 318,
+        "earthworms_count": 960,
+        "cowdung_slurry_litres": 979,
+        "neem_cake_kg": 61,
+        "biofertilizer": "Azospirillum (600g/acre) to broadly aid nitrogen utilization in grasses.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Barley",
+      "label": "barley",
+      "npk_required": {
+        "N": [
+          59,
+          118
+        ],
+        "P": [
+          30,
+          60
+        ],
+        "K": [
+          30,
+          50
+        ]
+      },
+      "npk_delta": {
+        "N": -30,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Rabi"
+      ],
+      "regions": [
+        "Rajasthan",
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Haryana",
+        "Punjab"
+      ],
+      "yield_score": 0.82,
+      "description": "Barley is a foundational cereal crucial for Indian food security.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "15 kg per acre",
+        "harvest_days": 70,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 2804,
+        "yield_per_plant_kg_month": 0.52,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.33
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.88
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.29
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 11,
+        "vermicompost_kg": 680,
+        "earthworms_count": 750,
+        "cowdung_slurry_litres": 645,
+        "neem_cake_kg": 169,
+        "biofertilizer": "Azospirillum (600g/acre) to broadly aid nitrogen utilization in grasses.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Foxtail Millet",
+      "label": "foxtail",
+      "npk_required": {
+        "N": [
+          59,
+          122
+        ],
+        "P": [
+          30,
+          60
+        ],
+        "K": [
+          30,
+          50
+        ]
+      },
+      "npk_delta": {
+        "N": -30,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Kharif"
+      ],
+      "regions": [
+        "Andhra Pradesh",
+        "Karnataka",
+        "Tamil Nadu",
+        "Rajasthan"
+      ],
+      "yield_score": 0.93,
+      "description": "Foxtail Millet is a foundational millet crucial for Indian food security.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "11 kg per acre",
+        "harvest_days": 147,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 5069,
+        "yield_per_plant_kg_month": 0.73,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.27
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.78
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.28
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 9,
+        "vermicompost_kg": 605,
+        "earthworms_count": 795,
+        "cowdung_slurry_litres": 535,
+        "neem_cake_kg": 97,
+        "biofertilizer": "Azospirillum (600g/acre) to broadly aid nitrogen utilization in grasses.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Chickpea (Gram)",
+      "label": "chickpea",
+      "npk_required": {
+        "N": [
+          7,
+          34
+        ],
+        "P": [
+          40,
+          60
+        ],
+        "K": [
+          20,
+          40
+        ]
+      },
+      "npk_delta": {
+        "N": 20,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Rabi"
+      ],
+      "regions": [
+        "Madhya Pradesh",
+        "Rajasthan",
+        "Maharashtra",
+        "Uttar Pradesh",
+        "Andhra Pradesh",
+        "Karnataka"
+      ],
+      "yield_score": 0.82,
+      "description": "Chickpea (Gram) fixes atmospheric nitrogen, restoring soil health naturally and reducing urea costs.",
+      "post_crop_benefit": "Leaves the soil significantly richer in Nitrogen for the next successive crop cycle.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "18 kg per acre",
+        "harvest_days": 139,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 5987,
+        "yield_per_plant_kg_month": 0.51,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.42
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.67
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.25
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 13,
+        "vermicompost_kg": 425,
+        "earthworms_count": 1230,
+        "cowdung_slurry_litres": 456,
+        "neem_cake_kg": 200,
+        "biofertilizer": "Rhizobium specifically matched for Chickpea (Gram) (200g/10kg seed) to nodulate roots.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Pigeon Pea (Tur)",
+      "label": "pigeon",
+      "npk_required": {
+        "N": [
+          11,
+          32
+        ],
+        "P": [
+          40,
+          60
+        ],
+        "K": [
+          20,
+          40
+        ]
+      },
+      "npk_delta": {
+        "N": 20,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Kharif"
+      ],
+      "regions": [
+        "Maharashtra",
+        "Karnataka",
+        "Madhya Pradesh",
+        "Gujarat",
+        "Uttar Pradesh",
+        "Andhra Pradesh"
+      ],
+      "yield_score": 0.9,
+      "description": "Pigeon Pea (Tur) fixes atmospheric nitrogen, restoring soil health naturally and reducing urea costs.",
+      "post_crop_benefit": "Leaves the soil significantly richer in Nitrogen for the next successive crop cycle.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "8 kg per acre",
+        "harvest_days": 119,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 4185,
+        "yield_per_plant_kg_month": 0.43,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.11
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.22
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.14
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 9,
+        "vermicompost_kg": 630,
+        "earthworms_count": 716,
+        "cowdung_slurry_litres": 385,
+        "neem_cake_kg": 106,
+        "biofertilizer": "Rhizobium specifically matched for Pigeon Pea (Tur) (200g/10kg seed) to nodulate roots.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Black Gram (Urad)",
+      "label": "black",
+      "npk_required": {
+        "N": [
+          8,
+          29
+        ],
+        "P": [
+          40,
+          60
+        ],
+        "K": [
+          20,
+          40
+        ]
+      },
+      "npk_delta": {
+        "N": 20,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Kharif",
+        "Zaid"
+      ],
+      "regions": [
+        "Madhya Pradesh",
+        "Andhra Pradesh",
+        "Uttar Pradesh",
+        "Maharashtra",
+        "Tamil Nadu"
+      ],
+      "yield_score": 0.87,
+      "description": "Black Gram (Urad) fixes atmospheric nitrogen, restoring soil health naturally and reducing urea costs.",
+      "post_crop_benefit": "Leaves the soil significantly richer in Nitrogen for the next successive crop cycle.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "9 kg per acre",
+        "harvest_days": 114,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 4052,
+        "yield_per_plant_kg_month": 0.18,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.47
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.57
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.12
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 12,
+        "vermicompost_kg": 765,
+        "earthworms_count": 1100,
+        "cowdung_slurry_litres": 250,
+        "neem_cake_kg": 117,
+        "biofertilizer": "Rhizobium specifically matched for Black Gram (Urad) (200g/10kg seed) to nodulate roots.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Green Gram (Moong)",
+      "label": "green",
+      "npk_required": {
+        "N": [
+          7,
+          32
+        ],
+        "P": [
+          40,
+          60
+        ],
+        "K": [
+          20,
+          40
+        ]
+      },
+      "npk_delta": {
+        "N": 20,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Kharif",
+        "Zaid",
+        "Rabi"
+      ],
+      "regions": [
+        "Rajasthan",
+        "Maharashtra",
+        "Andhra Pradesh",
+        "Madhya Pradesh",
+        "Odisha"
+      ],
+      "yield_score": 0.78,
+      "description": "Green Gram (Moong) fixes atmospheric nitrogen, restoring soil health naturally and reducing urea costs.",
+      "post_crop_benefit": "Leaves the soil significantly richer in Nitrogen for the next successive crop cycle.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "18 kg per acre",
+        "harvest_days": 148,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 3978,
+        "yield_per_plant_kg_month": 0.47,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.16
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.74
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.22
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 12,
+        "vermicompost_kg": 408,
+        "earthworms_count": 1391,
+        "cowdung_slurry_litres": 432,
+        "neem_cake_kg": 169,
+        "biofertilizer": "Rhizobium specifically matched for Green Gram (Moong) (200g/10kg seed) to nodulate roots.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Lentil (Masoor)",
+      "label": "lentil",
+      "npk_required": {
+        "N": [
+          6,
+          34
+        ],
+        "P": [
+          40,
+          60
+        ],
+        "K": [
+          20,
+          40
+        ]
+      },
+      "npk_delta": {
+        "N": 20,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Rabi"
+      ],
+      "regions": [
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Bihar",
+        "West Bengal",
+        "Rajasthan"
+      ],
+      "yield_score": 0.9,
+      "description": "Lentil (Masoor) fixes atmospheric nitrogen, restoring soil health naturally and reducing urea costs.",
+      "post_crop_benefit": "Leaves the soil significantly richer in Nitrogen for the next successive crop cycle.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "24 kg per acre",
+        "harvest_days": 92,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 1043,
+        "yield_per_plant_kg_month": 0.38,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.23
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.2
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.21
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 13,
+        "vermicompost_kg": 699,
+        "earthworms_count": 980,
+        "cowdung_slurry_litres": 705,
+        "neem_cake_kg": 94,
+        "biofertilizer": "Rhizobium specifically matched for Lentil (Masoor) (200g/10kg seed) to nodulate roots.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Horse Gram",
+      "label": "horse",
+      "npk_required": {
+        "N": [
+          9,
+          33
+        ],
+        "P": [
+          40,
+          60
+        ],
+        "K": [
+          20,
+          40
+        ]
+      },
+      "npk_delta": {
+        "N": 20,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Kharif",
+        "Rabi"
+      ],
+      "regions": [
+        "Karnataka",
+        "Andhra Pradesh",
+        "Tamil Nadu",
+        "Odisha",
+        "Maharashtra"
+      ],
+      "yield_score": 0.85,
+      "description": "Horse Gram fixes atmospheric nitrogen, restoring soil health naturally and reducing urea costs.",
+      "post_crop_benefit": "Leaves the soil significantly richer in Nitrogen for the next successive crop cycle.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "18 kg per acre",
+        "harvest_days": 179,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 2300,
+        "yield_per_plant_kg_month": 0.45,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.47
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.63
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.13
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 4,
+        "vermicompost_kg": 742,
+        "earthworms_count": 910,
+        "cowdung_slurry_litres": 333,
+        "neem_cake_kg": 143,
+        "biofertilizer": "Rhizobium specifically matched for Horse Gram (200g/10kg seed) to nodulate roots.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Cowpea",
+      "label": "cowpea",
+      "npk_required": {
+        "N": [
+          9,
+          29
+        ],
+        "P": [
+          40,
+          60
+        ],
+        "K": [
+          20,
+          40
+        ]
+      },
+      "npk_delta": {
+        "N": 20,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Kharif",
+        "Zaid"
+      ],
+      "regions": [
+        "Gujarat",
+        "Haryana",
+        "Punjab",
+        "Rajasthan",
+        "Madhya Pradesh"
+      ],
+      "yield_score": 0.92,
+      "description": "Cowpea fixes atmospheric nitrogen, restoring soil health naturally and reducing urea costs.",
+      "post_crop_benefit": "Leaves the soil significantly richer in Nitrogen for the next successive crop cycle.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "8 kg per acre",
+        "harvest_days": 137,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 2496,
+        "yield_per_plant_kg_month": 0.24,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.3
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.5
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.12
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 7,
+        "vermicompost_kg": 542,
+        "earthworms_count": 1293,
+        "cowdung_slurry_litres": 324,
+        "neem_cake_kg": 143,
+        "biofertilizer": "Rhizobium specifically matched for Cowpea (200g/10kg seed) to nodulate roots.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Peas",
+      "label": "peas",
+      "npk_required": {
+        "N": [
+          13,
+          34
+        ],
+        "P": [
+          40,
+          60
+        ],
+        "K": [
+          20,
+          40
+        ]
+      },
+      "npk_delta": {
+        "N": 20,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Rabi"
+      ],
+      "regions": [
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Punjab",
+        "Bihar"
+      ],
+      "yield_score": 0.87,
+      "description": "Peas fixes atmospheric nitrogen, restoring soil health naturally and reducing urea costs.",
+      "post_crop_benefit": "Leaves the soil significantly richer in Nitrogen for the next successive crop cycle.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "19 kg per acre",
+        "harvest_days": 153,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 1068,
+        "yield_per_plant_kg_month": 0.51,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.23
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.92
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.38
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 14,
+        "vermicompost_kg": 605,
+        "earthworms_count": 713,
+        "cowdung_slurry_litres": 216,
+        "neem_cake_kg": 84,
+        "biofertilizer": "Rhizobium specifically matched for Peas (200g/10kg seed) to nodulate roots.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Groundnut",
+      "label": "groundnut",
+      "npk_required": {
+        "N": [
+          28,
+          56
+        ],
+        "P": [
+          40,
+          60
+        ],
+        "K": [
+          20,
+          40
+        ]
+      },
+      "npk_delta": {
+        "N": -15,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Kharif",
+        "Rabi"
+      ],
+      "regions": [
+        "Gujarat",
+        "Andhra Pradesh",
+        "Tamil Nadu",
+        "Karnataka",
+        "Rajasthan",
+        "Maharashtra"
+      ],
+      "yield_score": 0.92,
+      "description": "Groundnut requires well-drained soil structure to accumulate essential oils efficiently.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "21 kg per acre",
+        "harvest_days": 120,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 3857,
+        "yield_per_plant_kg_month": 0.29,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.12
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.53
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.22
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 6,
+        "vermicompost_kg": 316,
+        "earthworms_count": 597,
+        "cowdung_slurry_litres": 442,
+        "neem_cake_kg": 79,
+        "biofertilizer": "Azotobacter and PSB to deeply mobilize phosphorus and sulfur effectively.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Mustard",
+      "label": "mustard",
+      "npk_required": {
+        "N": [
+          34,
+          58
+        ],
+        "P": [
+          40,
+          60
+        ],
+        "K": [
+          20,
+          40
+        ]
+      },
+      "npk_delta": {
+        "N": -15,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Rabi"
+      ],
+      "regions": [
+        "Rajasthan",
+        "Madhya Pradesh",
+        "Haryana",
+        "Uttar Pradesh",
+        "West Bengal"
+      ],
+      "yield_score": 0.78,
+      "description": "Mustard requires well-drained soil structure to accumulate essential oils efficiently.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "18 kg per acre",
+        "harvest_days": 154,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 1168,
+        "yield_per_plant_kg_month": 0.69,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.24
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.12
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.12
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 6,
+        "vermicompost_kg": 626,
+        "earthworms_count": 668,
+        "cowdung_slurry_litres": 449,
+        "neem_cake_kg": 106,
+        "biofertilizer": "Azotobacter and PSB to deeply mobilize phosphorus and sulfur effectively.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Soybean",
+      "label": "soybean",
+      "npk_required": {
+        "N": [
+          32,
+          62
+        ],
+        "P": [
+          40,
+          60
+        ],
+        "K": [
+          20,
+          40
+        ]
+      },
+      "npk_delta": {
+        "N": -15,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Kharif"
+      ],
+      "regions": [
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Rajasthan",
+        "Karnataka"
+      ],
+      "yield_score": 0.86,
+      "description": "Soybean requires well-drained soil structure to accumulate essential oils efficiently.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "19 kg per acre",
+        "harvest_days": 104,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 4383,
+        "yield_per_plant_kg_month": 0.67,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.16
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.66
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.34
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 13,
+        "vermicompost_kg": 321,
+        "earthworms_count": 633,
+        "cowdung_slurry_litres": 718,
+        "neem_cake_kg": 53,
+        "biofertilizer": "Azotobacter and PSB to deeply mobilize phosphorus and sulfur effectively.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Sunflower",
+      "label": "sunflower",
+      "npk_required": {
+        "N": [
+          25,
+          56
+        ],
+        "P": [
+          40,
+          60
+        ],
+        "K": [
+          20,
+          40
+        ]
+      },
+      "npk_delta": {
+        "N": -15,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Kharif",
+        "Rabi",
+        "Zaid"
+      ],
+      "regions": [
+        "Karnataka",
+        "Andhra Pradesh",
+        "Maharashtra",
+        "Haryana"
+      ],
+      "yield_score": 0.83,
+      "description": "Sunflower requires well-drained soil structure to accumulate essential oils efficiently.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "14 kg per acre",
+        "harvest_days": 135,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 1835,
+        "yield_per_plant_kg_month": 0.1,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.16
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.03
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.18
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 4,
+        "vermicompost_kg": 502,
+        "earthworms_count": 1085,
+        "cowdung_slurry_litres": 650,
+        "neem_cake_kg": 179,
+        "biofertilizer": "Azotobacter and PSB to deeply mobilize phosphorus and sulfur effectively.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Sesame",
+      "label": "sesame",
+      "npk_required": {
+        "N": [
+          25,
+          62
+        ],
+        "P": [
+          40,
+          60
+        ],
+        "K": [
+          20,
+          40
+        ]
+      },
+      "npk_delta": {
+        "N": -15,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Kharif"
+      ],
+      "regions": [
+        "Gujarat",
+        "West Bengal",
+        "Rajasthan",
+        "Uttar Pradesh",
+        "Madhya Pradesh"
+      ],
+      "yield_score": 0.74,
+      "description": "Sesame requires well-drained soil structure to accumulate essential oils efficiently.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "14 kg per acre",
+        "harvest_days": 137,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 2116,
+        "yield_per_plant_kg_month": 0.66,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.38
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.35
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.39
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 7,
+        "vermicompost_kg": 564,
+        "earthworms_count": 571,
+        "cowdung_slurry_litres": 748,
+        "neem_cake_kg": 74,
+        "biofertilizer": "Azotobacter and PSB to deeply mobilize phosphorus and sulfur effectively.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Castor",
+      "label": "castor",
+      "npk_required": {
+        "N": [
+          35,
+          62
+        ],
+        "P": [
+          40,
+          60
+        ],
+        "K": [
+          20,
+          40
+        ]
+      },
+      "npk_delta": {
+        "N": -15,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Kharif"
+      ],
+      "regions": [
+        "Gujarat",
+        "Rajasthan",
+        "Andhra Pradesh",
+        "Telangana"
+      ],
+      "yield_score": 0.86,
+      "description": "Castor requires well-drained soil structure to accumulate essential oils efficiently.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "23 kg per acre",
+        "harvest_days": 106,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 5640,
+        "yield_per_plant_kg_month": 0.63,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.33
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.68
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.38
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 15,
+        "vermicompost_kg": 281,
+        "earthworms_count": 981,
+        "cowdung_slurry_litres": 969,
+        "neem_cake_kg": 159,
+        "biofertilizer": "Azotobacter and PSB to deeply mobilize phosphorus and sulfur effectively.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Safflower",
+      "label": "safflower",
+      "npk_required": {
+        "N": [
+          33,
+          64
+        ],
+        "P": [
+          40,
+          60
+        ],
+        "K": [
+          20,
+          40
+        ]
+      },
+      "npk_delta": {
+        "N": -15,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Rabi"
+      ],
+      "regions": [
+        "Maharashtra",
+        "Karnataka",
+        "Andhra Pradesh"
+      ],
+      "yield_score": 0.75,
+      "description": "Safflower requires well-drained soil structure to accumulate essential oils efficiently.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "25 kg per acre",
+        "harvest_days": 134,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 5416,
+        "yield_per_plant_kg_month": 0.63,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.18
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.87
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.34
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 7,
+        "vermicompost_kg": 611,
+        "earthworms_count": 1350,
+        "cowdung_slurry_litres": 379,
+        "neem_cake_kg": 111,
+        "biofertilizer": "Azotobacter and PSB to deeply mobilize phosphorus and sulfur effectively.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Linseed",
+      "label": "linseed",
+      "npk_required": {
+        "N": [
+          26,
+          64
+        ],
+        "P": [
+          40,
+          60
+        ],
+        "K": [
+          20,
+          40
+        ]
+      },
+      "npk_delta": {
+        "N": -15,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Rabi"
+      ],
+      "regions": [
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Bihar",
+        "Maharashtra"
+      ],
+      "yield_score": 0.91,
+      "description": "Linseed requires well-drained soil structure to accumulate essential oils efficiently.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "25 kg per acre",
+        "harvest_days": 117,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 2182,
+        "yield_per_plant_kg_month": 0.46,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.42
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.94
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.12
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 14,
+        "vermicompost_kg": 446,
+        "earthworms_count": 660,
+        "cowdung_slurry_litres": 693,
+        "neem_cake_kg": 174,
+        "biofertilizer": "Azotobacter and PSB to deeply mobilize phosphorus and sulfur effectively.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Sugarcane",
+      "label": "sugarcane",
+      "npk_required": {
+        "N": [
+          101,
+          202
+        ],
+        "P": [
+          50,
+          100
+        ],
+        "K": [
+          60,
+          120
+        ]
+      },
+      "npk_delta": {
+        "N": -70,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "high",
+      "seasons": [
+        "Kharif",
+        "Rabi"
+      ],
+      "regions": [
+        "Uttar Pradesh",
+        "Maharashtra",
+        "Karnataka",
+        "Tamil Nadu",
+        "Bihar",
+        "Gujarat",
+        "Andhra Pradesh"
+      ],
+      "yield_score": 0.84,
+      "description": "Sugarcane is an intensive commercial crop demanding heavy organic inputs for sustained yields.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "10 kg per acre",
+        "harvest_days": 177,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 1382,
+        "yield_per_plant_kg_month": 0.3,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.38
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.45
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.36
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 7,
+        "vermicompost_kg": 479,
+        "earthworms_count": 527,
+        "cowdung_slurry_litres": 557,
+        "neem_cake_kg": 156,
+        "biofertilizer": "Acetobacter (essential for sucrose/sap) + PSB for high phosphate solubilization.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Cotton",
+      "label": "cotton",
+      "npk_required": {
+        "N": [
+          104,
+          205
+        ],
+        "P": [
+          50,
+          100
+        ],
+        "K": [
+          60,
+          120
+        ]
+      },
+      "npk_delta": {
+        "N": -70,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Kharif"
+      ],
+      "regions": [
+        "Gujarat",
+        "Maharashtra",
+        "Telangana",
+        "Andhra Pradesh",
+        "Rajasthan",
+        "Haryana",
+        "Punjab"
+      ],
+      "yield_score": 0.74,
+      "description": "Cotton is an intensive commercial crop demanding heavy organic inputs for sustained yields.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "22 kg per acre",
+        "harvest_days": 157,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 4089,
+        "yield_per_plant_kg_month": 0.64,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.27
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.23
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.35
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 8,
+        "vermicompost_kg": 659,
+        "earthworms_count": 817,
+        "cowdung_slurry_litres": 834,
+        "neem_cake_kg": 124,
+        "biofertilizer": "Acetobacter (essential for sucrose/sap) + PSB for high phosphate solubilization.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Jute",
+      "label": "jute",
+      "npk_required": {
+        "N": [
+          101,
+          199
+        ],
+        "P": [
+          50,
+          100
+        ],
+        "K": [
+          60,
+          120
+        ]
+      },
+      "npk_delta": {
+        "N": -70,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "high",
+      "seasons": [
+        "Kharif"
+      ],
+      "regions": [
+        "West Bengal",
+        "Bihar",
+        "Assam",
+        "Odisha",
+        "Meghalaya"
+      ],
+      "yield_score": 0.8,
+      "description": "Jute is an intensive commercial crop demanding heavy organic inputs for sustained yields.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "5 kg per acre",
+        "harvest_days": 92,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 3915,
+        "yield_per_plant_kg_month": 0.65,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.33
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.99
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.17
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 8,
+        "vermicompost_kg": 761,
+        "earthworms_count": 1234,
+        "cowdung_slurry_litres": 302,
+        "neem_cake_kg": 94,
+        "biofertilizer": "Acetobacter (essential for sucrose/sap) + PSB for high phosphate solubilization.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Tobacco",
+      "label": "tobacco",
+      "npk_required": {
+        "N": [
+          95,
+          198
+        ],
+        "P": [
+          50,
+          100
+        ],
+        "K": [
+          60,
+          120
+        ]
+      },
+      "npk_delta": {
+        "N": -70,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Rabi"
+      ],
+      "regions": [
+        "Andhra Pradesh",
+        "Gujarat",
+        "Karnataka",
+        "Uttar Pradesh",
+        "Bihar"
+      ],
+      "yield_score": 0.82,
+      "description": "Tobacco is an intensive commercial crop demanding heavy organic inputs for sustained yields.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "24 kg per acre",
+        "harvest_days": 151,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 5470,
+        "yield_per_plant_kg_month": 0.37,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.42
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.63
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.36
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 5,
+        "vermicompost_kg": 317,
+        "earthworms_count": 982,
+        "cowdung_slurry_litres": 312,
+        "neem_cake_kg": 125,
+        "biofertilizer": "Acetobacter (essential for sucrose/sap) + PSB for high phosphate solubilization.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Mesta",
+      "label": "mesta",
+      "npk_required": {
+        "N": [
+          96,
+          205
+        ],
+        "P": [
+          50,
+          100
+        ],
+        "K": [
+          60,
+          120
+        ]
+      },
+      "npk_delta": {
+        "N": -70,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Kharif"
+      ],
+      "regions": [
+        "Andhra Pradesh",
+        "Odisha",
+        "Bihar",
+        "West Bengal"
+      ],
+      "yield_score": 0.9,
+      "description": "Mesta is an intensive commercial crop demanding heavy organic inputs for sustained yields.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "22 kg per acre",
+        "harvest_days": 87,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 5241,
+        "yield_per_plant_kg_month": 0.77,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.39
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.77
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.15
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 6,
+        "vermicompost_kg": 671,
+        "earthworms_count": 1286,
+        "cowdung_slurry_litres": 234,
+        "neem_cake_kg": 108,
+        "biofertilizer": "Acetobacter (essential for sucrose/sap) + PSB for high phosphate solubilization.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Turmeric",
+      "label": "turmeric",
+      "npk_required": {
+        "N": [
+          40,
+          78
+        ],
+        "P": [
+          30,
+          60
+        ],
+        "K": [
+          40,
+          80
+        ]
+      },
+      "npk_delta": {
+        "N": -20,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Kharif"
+      ],
+      "regions": [
+        "Telangana",
+        "Andhra Pradesh",
+        "Maharashtra",
+        "Tamil Nadu",
+        "Odisha",
+        "Kerala"
+      ],
+      "yield_score": 0.76,
+      "description": "Turmeric requires precision irrigation and rich organic content for strong flavor profiles.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "9 kg per acre",
+        "harvest_days": 148,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 4730,
+        "yield_per_plant_kg_month": 0.47,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.42
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.6
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.12
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 12,
+        "vermicompost_kg": 386,
+        "earthworms_count": 1014,
+        "cowdung_slurry_litres": 391,
+        "neem_cake_kg": 152,
+        "biofertilizer": "Trichoderma viride required natively for protection against soil-borne root-rot diseases.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Ginger",
+      "label": "ginger",
+      "npk_required": {
+        "N": [
+          37,
+          85
+        ],
+        "P": [
+          30,
+          60
+        ],
+        "K": [
+          40,
+          80
+        ]
+      },
+      "npk_delta": {
+        "N": -20,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Kharif"
+      ],
+      "regions": [
+        "Kerala",
+        "Karnataka",
+        "Arunachal Pradesh",
+        "Odisha",
+        "Meghalaya",
+        "Assam"
+      ],
+      "yield_score": 0.77,
+      "description": "Ginger requires precision irrigation and rich organic content for strong flavor profiles.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "21 kg per acre",
+        "harvest_days": 119,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 4196,
+        "yield_per_plant_kg_month": 0.51,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.35
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.39
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.3
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 4,
+        "vermicompost_kg": 690,
+        "earthworms_count": 1132,
+        "cowdung_slurry_litres": 331,
+        "neem_cake_kg": 132,
+        "biofertilizer": "Trichoderma viride required natively for protection against soil-borne root-rot diseases.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Black Pepper",
+      "label": "black",
+      "npk_required": {
+        "N": [
+          44,
+          84
+        ],
+        "P": [
+          30,
+          60
+        ],
+        "K": [
+          40,
+          80
+        ]
+      },
+      "npk_delta": {
+        "N": -20,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "high",
+      "seasons": [
+        "Kharif"
+      ],
+      "regions": [
+        "Kerala",
+        "Karnataka",
+        "Tamil Nadu"
+      ],
+      "yield_score": 0.79,
+      "description": "Black Pepper requires precision irrigation and rich organic content for strong flavor profiles.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "21 kg per acre",
+        "harvest_days": 106,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 1507,
+        "yield_per_plant_kg_month": 0.12,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.2
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.42
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.34
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 13,
+        "vermicompost_kg": 228,
+        "earthworms_count": 558,
+        "cowdung_slurry_litres": 389,
+        "neem_cake_kg": 135,
+        "biofertilizer": "Trichoderma viride required natively for protection against soil-borne root-rot diseases.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Cardamom",
+      "label": "cardamom",
+      "npk_required": {
+        "N": [
+          38,
+          77
+        ],
+        "P": [
+          30,
+          60
+        ],
+        "K": [
+          40,
+          80
+        ]
+      },
+      "npk_delta": {
+        "N": -20,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "high",
+      "seasons": [
+        "Kharif"
+      ],
+      "regions": [
+        "Kerala",
+        "Karnataka",
+        "Tamil Nadu"
+      ],
+      "yield_score": 0.82,
+      "description": "Cardamom requires precision irrigation and rich organic content for strong flavor profiles.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "24 kg per acre",
+        "harvest_days": 92,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 2987,
+        "yield_per_plant_kg_month": 0.72,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.22
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.46
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.27
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 4,
+        "vermicompost_kg": 741,
+        "earthworms_count": 463,
+        "cowdung_slurry_litres": 659,
+        "neem_cake_kg": 67,
+        "biofertilizer": "Trichoderma viride required natively for protection against soil-borne root-rot diseases.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Coriander",
+      "label": "coriander",
+      "npk_required": {
+        "N": [
+          45,
+          77
+        ],
+        "P": [
+          30,
+          60
+        ],
+        "K": [
+          40,
+          80
+        ]
+      },
+      "npk_delta": {
+        "N": -20,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Rabi"
+      ],
+      "regions": [
+        "Rajasthan",
+        "Madhya Pradesh",
+        "Gujarat",
+        "Assam"
+      ],
+      "yield_score": 0.93,
+      "description": "Coriander requires precision irrigation and rich organic content for strong flavor profiles.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "17 kg per acre",
+        "harvest_days": 161,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 1931,
+        "yield_per_plant_kg_month": 0.61,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.14
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.89
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.4
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 12,
+        "vermicompost_kg": 211,
+        "earthworms_count": 1402,
+        "cowdung_slurry_litres": 298,
+        "neem_cake_kg": 192,
+        "biofertilizer": "Trichoderma viride required natively for protection against soil-borne root-rot diseases.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Cumin",
+      "label": "cumin",
+      "npk_required": {
+        "N": [
+          39,
+          81
+        ],
+        "P": [
+          30,
+          60
+        ],
+        "K": [
+          40,
+          80
+        ]
+      },
+      "npk_delta": {
+        "N": -20,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Rabi"
+      ],
+      "regions": [
+        "Gujarat",
+        "Rajasthan"
+      ],
+      "yield_score": 0.9,
+      "description": "Cumin requires precision irrigation and rich organic content for strong flavor profiles.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "18 kg per acre",
+        "harvest_days": 120,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 1524,
+        "yield_per_plant_kg_month": 0.58,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.14
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.84
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.28
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 5,
+        "vermicompost_kg": 419,
+        "earthworms_count": 419,
+        "cowdung_slurry_litres": 211,
+        "neem_cake_kg": 167,
+        "biofertilizer": "Trichoderma viride required natively for protection against soil-borne root-rot diseases.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Chilli",
+      "label": "chilli",
+      "npk_required": {
+        "N": [
+          37,
+          77
+        ],
+        "P": [
+          30,
+          60
+        ],
+        "K": [
+          40,
+          80
+        ]
+      },
+      "npk_delta": {
+        "N": -20,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Kharif",
+        "Rabi"
+      ],
+      "regions": [
+        "Andhra Pradesh",
+        "Telangana",
+        "Madhya Pradesh",
+        "Karnataka",
+        "West Bengal",
+        "Maharashtra"
+      ],
+      "yield_score": 0.87,
+      "description": "Chilli requires precision irrigation and rich organic content for strong flavor profiles.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "9 kg per acre",
+        "harvest_days": 149,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 3456,
+        "yield_per_plant_kg_month": 0.31,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.31
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.15
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.25
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 14,
+        "vermicompost_kg": 529,
+        "earthworms_count": 846,
+        "cowdung_slurry_litres": 202,
+        "neem_cake_kg": 132,
+        "biofertilizer": "Trichoderma viride required natively for protection against soil-borne root-rot diseases.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Garlic",
+      "label": "garlic",
+      "npk_required": {
+        "N": [
+          40,
+          77
+        ],
+        "P": [
+          30,
+          60
+        ],
+        "K": [
+          40,
+          80
+        ]
+      },
+      "npk_delta": {
+        "N": -20,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Rabi"
+      ],
+      "regions": [
+        "Madhya Pradesh",
+        "Rajasthan",
+        "Uttar Pradesh",
+        "Gujarat",
+        "Maharashtra"
+      ],
+      "yield_score": 0.85,
+      "description": "Garlic requires precision irrigation and rich organic content for strong flavor profiles.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "17 kg per acre",
+        "harvest_days": 153,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 1025,
+        "yield_per_plant_kg_month": 0.28,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.1
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.84
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.21
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 10,
+        "vermicompost_kg": 249,
+        "earthworms_count": 635,
+        "cowdung_slurry_litres": 599,
+        "neem_cake_kg": 189,
+        "biofertilizer": "Trichoderma viride required natively for protection against soil-borne root-rot diseases.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Tea",
+      "label": "tea",
+      "npk_required": {
+        "N": [
+          96,
+          203
+        ],
+        "P": [
+          50,
+          100
+        ],
+        "K": [
+          60,
+          120
+        ]
+      },
+      "npk_delta": {
+        "N": -70,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "high",
+      "seasons": [
+        "Kharif",
+        "Zaid"
+      ],
+      "regions": [
+        "Assam",
+        "West Bengal",
+        "Tamil Nadu",
+        "Kerala",
+        "Tripura",
+        "Himachal Pradesh"
+      ],
+      "yield_score": 0.81,
+      "description": "Tea is an intensive commercial crop demanding heavy organic inputs for sustained yields.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "25 kg per acre",
+        "harvest_days": 136,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 4749,
+        "yield_per_plant_kg_month": 0.63,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.26
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.57
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.4
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 11,
+        "vermicompost_kg": 527,
+        "earthworms_count": 834,
+        "cowdung_slurry_litres": 943,
+        "neem_cake_kg": 198,
+        "biofertilizer": "Acetobacter (essential for sucrose/sap) + PSB for high phosphate solubilization.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Coffee",
+      "label": "coffee",
+      "npk_required": {
+        "N": [
+          96,
+          199
+        ],
+        "P": [
+          50,
+          100
+        ],
+        "K": [
+          60,
+          120
+        ]
+      },
+      "npk_delta": {
+        "N": -70,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "high",
+      "seasons": [
+        "Kharif"
+      ],
+      "regions": [
+        "Karnataka",
+        "Kerala",
+        "Tamil Nadu"
+      ],
+      "yield_score": 0.88,
+      "description": "Coffee is an intensive commercial crop demanding heavy organic inputs for sustained yields.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "25 kg per acre",
+        "harvest_days": 152,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 5617,
+        "yield_per_plant_kg_month": 0.77,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.49
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.56
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.32
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 5,
+        "vermicompost_kg": 306,
+        "earthworms_count": 844,
+        "cowdung_slurry_litres": 679,
+        "neem_cake_kg": 55,
+        "biofertilizer": "Acetobacter (essential for sucrose/sap) + PSB for high phosphate solubilization.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Rubber",
+      "label": "rubber",
+      "npk_required": {
+        "N": [
+          103,
+          204
+        ],
+        "P": [
+          50,
+          100
+        ],
+        "K": [
+          60,
+          120
+        ]
+      },
+      "npk_delta": {
+        "N": -70,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "high",
+      "seasons": [
+        "Kharif",
+        "Zaid"
+      ],
+      "regions": [
+        "Kerala",
+        "Tamil Nadu",
+        "Tripura",
+        "Assam",
+        "Meghalaya"
+      ],
+      "yield_score": 0.94,
+      "description": "Rubber is an intensive commercial crop demanding heavy organic inputs for sustained yields.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "23 kg per acre",
+        "harvest_days": 109,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 5496,
+        "yield_per_plant_kg_month": 0.14,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.21
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.67
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.22
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 11,
+        "vermicompost_kg": 737,
+        "earthworms_count": 1170,
+        "cowdung_slurry_litres": 450,
+        "neem_cake_kg": 196,
+        "biofertilizer": "Acetobacter (essential for sucrose/sap) + PSB for high phosphate solubilization.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Coconut",
+      "label": "coconut",
+      "npk_required": {
+        "N": [
+          99,
+          201
+        ],
+        "P": [
+          50,
+          100
+        ],
+        "K": [
+          60,
+          120
+        ]
+      },
+      "npk_delta": {
+        "N": -70,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "high",
+      "seasons": [
+        "Kharif",
+        "Rabi",
+        "Zaid"
+      ],
+      "regions": [
+        "Kerala",
+        "Tamil Nadu",
+        "Karnataka",
+        "Andhra Pradesh",
+        "Odisha",
+        "Goa",
+        "West Bengal"
+      ],
+      "yield_score": 0.86,
+      "description": "Coconut is an intensive commercial crop demanding heavy organic inputs for sustained yields.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "21 kg per acre",
+        "harvest_days": 174,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 3218,
+        "yield_per_plant_kg_month": 0.64,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.16
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.99
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.3
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 5,
+        "vermicompost_kg": 647,
+        "earthworms_count": 922,
+        "cowdung_slurry_litres": 967,
+        "neem_cake_kg": 175,
+        "biofertilizer": "Acetobacter (essential for sucrose/sap) + PSB for high phosphate solubilization.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Arecanut",
+      "label": "arecanut",
+      "npk_required": {
+        "N": [
+          99,
+          202
+        ],
+        "P": [
+          50,
+          100
+        ],
+        "K": [
+          60,
+          120
+        ]
+      },
+      "npk_delta": {
+        "N": -70,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "high",
+      "seasons": [
+        "Kharif",
+        "Rabi",
+        "Zaid"
+      ],
+      "regions": [
+        "Karnataka",
+        "Kerala",
+        "Assam",
+        "Meghalaya",
+        "West Bengal"
+      ],
+      "yield_score": 0.79,
+      "description": "Arecanut is an intensive commercial crop demanding heavy organic inputs for sustained yields.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "24 kg per acre",
+        "harvest_days": 157,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 1505,
+        "yield_per_plant_kg_month": 0.59,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.44
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.17
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.22
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 13,
+        "vermicompost_kg": 617,
+        "earthworms_count": 1244,
+        "cowdung_slurry_litres": 711,
+        "neem_cake_kg": 148,
+        "biofertilizer": "Acetobacter (essential for sucrose/sap) + PSB for high phosphate solubilization.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Cashew",
+      "label": "cashew",
+      "npk_required": {
+        "N": [
+          105,
+          196
+        ],
+        "P": [
+          50,
+          100
+        ],
+        "K": [
+          60,
+          120
+        ]
+      },
+      "npk_delta": {
+        "N": -70,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Kharif",
+        "Zaid"
+      ],
+      "regions": [
+        "Maharashtra",
+        "Goa",
+        "Kerala",
+        "Karnataka",
+        "Andhra Pradesh",
+        "Odisha"
+      ],
+      "yield_score": 0.73,
+      "description": "Cashew is an intensive commercial crop demanding heavy organic inputs for sustained yields.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "13 kg per acre",
+        "harvest_days": 126,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 4036,
+        "yield_per_plant_kg_month": 0.16,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.29
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.96
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.38
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 6,
+        "vermicompost_kg": 785,
+        "earthworms_count": 762,
+        "cowdung_slurry_litres": 368,
+        "neem_cake_kg": 99,
+        "biofertilizer": "Acetobacter (essential for sucrose/sap) + PSB for high phosphate solubilization.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Potato",
+      "label": "potato",
+      "npk_required": {
+        "N": [
+          80,
+          154
+        ],
+        "P": [
+          50,
+          80
+        ],
+        "K": [
+          80,
+          150
+        ]
+      },
+      "npk_delta": {
+        "N": -40,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Rabi"
+      ],
+      "regions": [
+        "Uttar Pradesh",
+        "West Bengal",
+        "Bihar",
+        "Gujarat",
+        "Madhya Pradesh",
+        "Punjab",
+        "Assam"
+      ],
+      "yield_score": 0.79,
+      "description": "Potato is a high-value horticultural crop needing meticulous NPK ratios to maximize size & yield.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "8 kg per acre",
+        "harvest_days": 112,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 2108,
+        "yield_per_plant_kg_month": 0.24,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.49
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.49
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.16
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 12,
+        "vermicompost_kg": 712,
+        "earthworms_count": 942,
+        "cowdung_slurry_litres": 230,
+        "neem_cake_kg": 186,
+        "biofertilizer": "VAM (Vesicular Arbuscular Mycorrhiza) fungi for heavy advanced root potassium uptake.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Onion",
+      "label": "onion",
+      "npk_required": {
+        "N": [
+          78,
+          146
+        ],
+        "P": [
+          50,
+          80
+        ],
+        "K": [
+          80,
+          150
+        ]
+      },
+      "npk_delta": {
+        "N": -40,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Kharif",
+        "Rabi"
+      ],
+      "regions": [
+        "Maharashtra",
+        "Madhya Pradesh",
+        "Karnataka",
+        "Gujarat",
+        "Bihar",
+        "Andhra Pradesh"
+      ],
+      "yield_score": 0.84,
+      "description": "Onion is a high-value horticultural crop needing meticulous NPK ratios to maximize size & yield.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "19 kg per acre",
+        "harvest_days": 120,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 4947,
+        "yield_per_plant_kg_month": 0.31,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.32
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.67
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.22
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 11,
+        "vermicompost_kg": 624,
+        "earthworms_count": 1215,
+        "cowdung_slurry_litres": 880,
+        "neem_cake_kg": 169,
+        "biofertilizer": "VAM (Vesicular Arbuscular Mycorrhiza) fungi for heavy advanced root potassium uptake.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Tomato",
+      "label": "tomato",
+      "npk_required": {
+        "N": [
+          82,
+          152
+        ],
+        "P": [
+          50,
+          80
+        ],
+        "K": [
+          80,
+          150
+        ]
+      },
+      "npk_delta": {
+        "N": -40,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Kharif",
+        "Rabi",
+        "Zaid"
+      ],
+      "regions": [
+        "Andhra Pradesh",
+        "Madhya Pradesh",
+        "Karnataka",
+        "Gujarat",
+        "Odisha",
+        "West Bengal",
+        "Maharashtra"
+      ],
+      "yield_score": 0.82,
+      "description": "Tomato is a high-value horticultural crop needing meticulous NPK ratios to maximize size & yield.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "13 kg per acre",
+        "harvest_days": 82,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 3577,
+        "yield_per_plant_kg_month": 0.35,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.12
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.94
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.11
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 10,
+        "vermicompost_kg": 573,
+        "earthworms_count": 432,
+        "cowdung_slurry_litres": 535,
+        "neem_cake_kg": 116,
+        "biofertilizer": "VAM (Vesicular Arbuscular Mycorrhiza) fungi for heavy advanced root potassium uptake.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Brinjal",
+      "label": "brinjal",
+      "npk_required": {
+        "N": [
+          82,
+          150
+        ],
+        "P": [
+          50,
+          80
+        ],
+        "K": [
+          80,
+          150
+        ]
+      },
+      "npk_delta": {
+        "N": -40,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Kharif",
+        "Rabi",
+        "Zaid"
+      ],
+      "regions": [
+        "West Bengal",
+        "Odisha",
+        "Gujarat",
+        "Bihar",
+        "Andhra Pradesh",
+        "Maharashtra"
+      ],
+      "yield_score": 0.81,
+      "description": "Brinjal is a high-value horticultural crop needing meticulous NPK ratios to maximize size & yield.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "17 kg per acre",
+        "harvest_days": 106,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 966,
+        "yield_per_plant_kg_month": 0.73,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.28
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.02
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.19
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 4,
+        "vermicompost_kg": 651,
+        "earthworms_count": 978,
+        "cowdung_slurry_litres": 394,
+        "neem_cake_kg": 134,
+        "biofertilizer": "VAM (Vesicular Arbuscular Mycorrhiza) fungi for heavy advanced root potassium uptake.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Cabbage",
+      "label": "cabbage",
+      "npk_required": {
+        "N": [
+          77,
+          150
+        ],
+        "P": [
+          50,
+          80
+        ],
+        "K": [
+          80,
+          150
+        ]
+      },
+      "npk_delta": {
+        "N": -40,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Rabi"
+      ],
+      "regions": [
+        "West Bengal",
+        "Odisha",
+        "Bihar",
+        "Gujarat",
+        "Assam",
+        "Uttar Pradesh"
+      ],
+      "yield_score": 0.9,
+      "description": "Cabbage is a high-value horticultural crop needing meticulous NPK ratios to maximize size & yield.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "25 kg per acre",
+        "harvest_days": 148,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 2391,
+        "yield_per_plant_kg_month": 0.45,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.26
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.68
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.29
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 7,
+        "vermicompost_kg": 232,
+        "earthworms_count": 914,
+        "cowdung_slurry_litres": 608,
+        "neem_cake_kg": 154,
+        "biofertilizer": "VAM (Vesicular Arbuscular Mycorrhiza) fungi for heavy advanced root potassium uptake.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Cauliflower",
+      "label": "cauliflower",
+      "npk_required": {
+        "N": [
+          82,
+          150
+        ],
+        "P": [
+          50,
+          80
+        ],
+        "K": [
+          80,
+          150
+        ]
+      },
+      "npk_delta": {
+        "N": -40,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Rabi"
+      ],
+      "regions": [
+        "West Bengal",
+        "Bihar",
+        "Haryana",
+        "Madhya Pradesh",
+        "Gujarat",
+        "Uttar Pradesh"
+      ],
+      "yield_score": 0.77,
+      "description": "Cauliflower is a high-value horticultural crop needing meticulous NPK ratios to maximize size & yield.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "25 kg per acre",
+        "harvest_days": 175,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 1435,
+        "yield_per_plant_kg_month": 0.73,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.1
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.07
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.31
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 6,
+        "vermicompost_kg": 434,
+        "earthworms_count": 492,
+        "cowdung_slurry_litres": 291,
+        "neem_cake_kg": 161,
+        "biofertilizer": "VAM (Vesicular Arbuscular Mycorrhiza) fungi for heavy advanced root potassium uptake.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Okra (Bhindi)",
+      "label": "okra",
+      "npk_required": {
+        "N": [
+          81,
+          152
+        ],
+        "P": [
+          50,
+          80
+        ],
+        "K": [
+          80,
+          150
+        ]
+      },
+      "npk_delta": {
+        "N": -40,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Kharif",
+        "Zaid"
+      ],
+      "regions": [
+        "Gujarat",
+        "West Bengal",
+        "Bihar",
+        "Odisha",
+        "Andhra Pradesh",
+        "Maharashtra"
+      ],
+      "yield_score": 0.76,
+      "description": "Okra (Bhindi) is a high-value horticultural crop needing meticulous NPK ratios to maximize size & yield.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "24 kg per acre",
+        "harvest_days": 110,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 5520,
+        "yield_per_plant_kg_month": 0.39,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.19
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.93
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.3
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 10,
+        "vermicompost_kg": 208,
+        "earthworms_count": 1390,
+        "cowdung_slurry_litres": 940,
+        "neem_cake_kg": 183,
+        "biofertilizer": "VAM (Vesicular Arbuscular Mycorrhiza) fungi for heavy advanced root potassium uptake.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Sweet Potato",
+      "label": "sweet",
+      "npk_required": {
+        "N": [
+          82,
+          152
+        ],
+        "P": [
+          50,
+          80
+        ],
+        "K": [
+          80,
+          150
+        ]
+      },
+      "npk_delta": {
+        "N": -40,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Kharif",
+        "Rabi"
+      ],
+      "regions": [
+        "Odisha",
+        "West Bengal",
+        "Uttar Pradesh",
+        "Bihar",
+        "Madhya Pradesh"
+      ],
+      "yield_score": 0.86,
+      "description": "Sweet Potato is a high-value horticultural crop needing meticulous NPK ratios to maximize size & yield.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "17 kg per acre",
+        "harvest_days": 113,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 1668,
+        "yield_per_plant_kg_month": 0.69,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.44
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.19
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.29
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 6,
+        "vermicompost_kg": 224,
+        "earthworms_count": 1020,
+        "cowdung_slurry_litres": 786,
+        "neem_cake_kg": 110,
+        "biofertilizer": "VAM (Vesicular Arbuscular Mycorrhiza) fungi for heavy advanced root potassium uptake.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Tapioca (Cassava)",
+      "label": "tapioca",
+      "npk_required": {
+        "N": [
+          77,
+          145
+        ],
+        "P": [
+          50,
+          80
+        ],
+        "K": [
+          80,
+          150
+        ]
+      },
+      "npk_delta": {
+        "N": -40,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Kharif"
+      ],
+      "regions": [
+        "Kerala",
+        "Tamil Nadu",
+        "Andhra Pradesh"
+      ],
+      "yield_score": 0.92,
+      "description": "Tapioca (Cassava) is a high-value horticultural crop needing meticulous NPK ratios to maximize size & yield.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "23 kg per acre",
+        "harvest_days": 178,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 4090,
+        "yield_per_plant_kg_month": 0.71,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.37
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.45
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.25
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 14,
+        "vermicompost_kg": 495,
+        "earthworms_count": 1178,
+        "cowdung_slurry_litres": 796,
+        "neem_cake_kg": 82,
+        "biofertilizer": "VAM (Vesicular Arbuscular Mycorrhiza) fungi for heavy advanced root potassium uptake.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Mango",
+      "label": "mango",
+      "npk_required": {
+        "N": [
+          79,
+          151
+        ],
+        "P": [
+          50,
+          80
+        ],
+        "K": [
+          80,
+          150
+        ]
+      },
+      "npk_delta": {
+        "N": -40,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Zaid",
+        "Kharif"
+      ],
+      "regions": [
+        "Uttar Pradesh",
+        "Andhra Pradesh",
+        "Karnataka",
+        "Bihar",
+        "Gujarat",
+        "Maharashtra",
+        "Tamil Nadu"
+      ],
+      "yield_score": 0.78,
+      "description": "Mango is a high-value horticultural crop needing meticulous NPK ratios to maximize size & yield.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "25 kg per acre",
+        "harvest_days": 159,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 1522,
+        "yield_per_plant_kg_month": 0.31,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.25
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.54
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.29
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 15,
+        "vermicompost_kg": 672,
+        "earthworms_count": 1244,
+        "cowdung_slurry_litres": 536,
+        "neem_cake_kg": 73,
+        "biofertilizer": "VAM (Vesicular Arbuscular Mycorrhiza) fungi for heavy advanced root potassium uptake.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Banana",
+      "label": "banana",
+      "npk_required": {
+        "N": [
+          84,
+          155
+        ],
+        "P": [
+          50,
+          80
+        ],
+        "K": [
+          80,
+          150
+        ]
+      },
+      "npk_delta": {
+        "N": -40,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "high",
+      "seasons": [
+        "Kharif",
+        "Rabi",
+        "Zaid"
+      ],
+      "regions": [
+        "Tamil Nadu",
+        "Maharashtra",
+        "Gujarat",
+        "Andhra Pradesh",
+        "Karnataka",
+        "Kerala"
+      ],
+      "yield_score": 0.72,
+      "description": "Banana is a high-value horticultural crop needing meticulous NPK ratios to maximize size & yield.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "17 kg per acre",
+        "harvest_days": 167,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 4661,
+        "yield_per_plant_kg_month": 0.58,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.35
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.69
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.12
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 13,
+        "vermicompost_kg": 552,
+        "earthworms_count": 1029,
+        "cowdung_slurry_litres": 933,
+        "neem_cake_kg": 189,
+        "biofertilizer": "VAM (Vesicular Arbuscular Mycorrhiza) fungi for heavy advanced root potassium uptake.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Apple",
+      "label": "apple",
+      "npk_required": {
+        "N": [
+          82,
+          152
+        ],
+        "P": [
+          50,
+          80
+        ],
+        "K": [
+          80,
+          150
+        ]
+      },
+      "npk_delta": {
+        "N": -40,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Kharif"
+      ],
+      "regions": [
+        "Jammu & Kashmir",
+        "Himachal Pradesh",
+        "Uttarakhand"
+      ],
+      "yield_score": 0.84,
+      "description": "Apple is a high-value horticultural crop needing meticulous NPK ratios to maximize size & yield.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "15 kg per acre",
+        "harvest_days": 73,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 5170,
+        "yield_per_plant_kg_month": 0.77,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.26
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.6
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.15
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 13,
+        "vermicompost_kg": 651,
+        "earthworms_count": 510,
+        "cowdung_slurry_litres": 970,
+        "neem_cake_kg": 65,
+        "biofertilizer": "VAM (Vesicular Arbuscular Mycorrhiza) fungi for heavy advanced root potassium uptake.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Guava",
+      "label": "guava",
+      "npk_required": {
+        "N": [
+          81,
+          155
+        ],
+        "P": [
+          50,
+          80
+        ],
+        "K": [
+          80,
+          150
+        ]
+      },
+      "npk_delta": {
+        "N": -40,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Kharif",
+        "Rabi"
+      ],
+      "regions": [
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Bihar",
+        "Maharashtra",
+        "Andhra Pradesh"
+      ],
+      "yield_score": 0.86,
+      "description": "Guava is a high-value horticultural crop needing meticulous NPK ratios to maximize size & yield.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "7 kg per acre",
+        "harvest_days": 141,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 4275,
+        "yield_per_plant_kg_month": 0.43,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.41
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.7
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.28
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 11,
+        "vermicompost_kg": 465,
+        "earthworms_count": 1182,
+        "cowdung_slurry_litres": 356,
+        "neem_cake_kg": 123,
+        "biofertilizer": "VAM (Vesicular Arbuscular Mycorrhiza) fungi for heavy advanced root potassium uptake.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Papaya",
+      "label": "papaya",
+      "npk_required": {
+        "N": [
+          85,
+          149
+        ],
+        "P": [
+          50,
+          80
+        ],
+        "K": [
+          80,
+          150
+        ]
+      },
+      "npk_delta": {
+        "N": -40,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "high",
+      "seasons": [
+        "Kharif",
+        "Rabi",
+        "Zaid"
+      ],
+      "regions": [
+        "Andhra Pradesh",
+        "Gujarat",
+        "Maharashtra",
+        "Karnataka",
+        "Madhya Pradesh"
+      ],
+      "yield_score": 0.84,
+      "description": "Papaya is a high-value horticultural crop needing meticulous NPK ratios to maximize size & yield.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "8 kg per acre",
+        "harvest_days": 128,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 4649,
+        "yield_per_plant_kg_month": 0.74,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.43
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.67
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.28
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 12,
+        "vermicompost_kg": 438,
+        "earthworms_count": 402,
+        "cowdung_slurry_litres": 397,
+        "neem_cake_kg": 199,
+        "biofertilizer": "VAM (Vesicular Arbuscular Mycorrhiza) fungi for heavy advanced root potassium uptake.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Grape",
+      "label": "grape",
+      "npk_required": {
+        "N": [
+          84,
+          154
+        ],
+        "P": [
+          50,
+          80
+        ],
+        "K": [
+          80,
+          150
+        ]
+      },
+      "npk_delta": {
+        "N": -40,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Rabi",
+        "Zaid"
+      ],
+      "regions": [
+        "Maharashtra",
+        "Karnataka",
+        "Tamil Nadu",
+        "Andhra Pradesh"
+      ],
+      "yield_score": 0.91,
+      "description": "Grape is a high-value horticultural crop needing meticulous NPK ratios to maximize size & yield.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "10 kg per acre",
+        "harvest_days": 158,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 4341,
+        "yield_per_plant_kg_month": 0.41,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.2
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.47
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.26
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 7,
+        "vermicompost_kg": 756,
+        "earthworms_count": 1287,
+        "cowdung_slurry_litres": 798,
+        "neem_cake_kg": 169,
+        "biofertilizer": "VAM (Vesicular Arbuscular Mycorrhiza) fungi for heavy advanced root potassium uptake.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Pomegranate",
+      "label": "pomegranate",
+      "npk_required": {
+        "N": [
+          76,
+          155
+        ],
+        "P": [
+          50,
+          80
+        ],
+        "K": [
+          80,
+          150
+        ]
+      },
+      "npk_delta": {
+        "N": -40,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "low",
+      "seasons": [
+        "Rabi",
+        "Kharif"
+      ],
+      "regions": [
+        "Maharashtra",
+        "Karnataka",
+        "Gujarat",
+        "Andhra Pradesh",
+        "Rajasthan"
+      ],
+      "yield_score": 0.85,
+      "description": "Pomegranate is a high-value horticultural crop needing meticulous NPK ratios to maximize size & yield.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "20 kg per acre",
+        "harvest_days": 90,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 4550,
+        "yield_per_plant_kg_month": 0.62,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.4
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.61
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.38
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 8,
+        "vermicompost_kg": 488,
+        "earthworms_count": 868,
+        "cowdung_slurry_litres": 944,
+        "neem_cake_kg": 157,
+        "biofertilizer": "VAM (Vesicular Arbuscular Mycorrhiza) fungi for heavy advanced root potassium uptake.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Orange (Citrus)",
+      "label": "orange",
+      "npk_required": {
+        "N": [
+          84,
+          154
+        ],
+        "P": [
+          50,
+          80
+        ],
+        "K": [
+          80,
+          150
+        ]
+      },
+      "npk_delta": {
+        "N": -40,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "medium",
+      "seasons": [
+        "Rabi",
+        "Kharif"
+      ],
+      "regions": [
+        "Maharashtra",
+        "Madhya Pradesh",
+        "Punjab",
+        "Rajasthan",
+        "Assam"
+      ],
+      "yield_score": 0.82,
+      "description": "Orange (Citrus) is a high-value horticultural crop needing meticulous NPK ratios to maximize size & yield.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "24 kg per acre",
+        "harvest_days": 110,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 918,
+        "yield_per_plant_kg_month": 0.36,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.34
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 1.05
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.22
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 7,
+        "vermicompost_kg": 367,
+        "earthworms_count": 1417,
+        "cowdung_slurry_litres": 345,
+        "neem_cake_kg": 159,
+        "biofertilizer": "VAM (Vesicular Arbuscular Mycorrhiza) fungi for heavy advanced root potassium uptake.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    },
+    {
+      "name": "Pineapple",
+      "label": "pineapple",
+      "npk_required": {
+        "N": [
+          75,
+          150
+        ],
+        "P": [
+          50,
+          80
+        ],
+        "K": [
+          80,
+          150
+        ]
+      },
+      "npk_delta": {
+        "N": -40,
+        "P": -10,
+        "K": -15
+      },
+      "water_need": "high",
+      "seasons": [
+        "Kharif"
+      ],
+      "regions": [
+        "West Bengal",
+        "Assam",
+        "Kerala",
+        "Tripura",
+        "Meghalaya"
+      ],
+      "yield_score": 0.84,
+      "description": "Pineapple is a high-value horticultural crop needing meticulous NPK ratios to maximize size & yield.",
+      "post_crop_benefit": "Enhances soil structure and agro-biodiversity.",
+      "growing_guide": {
+        "land_prep": "Deep ploughing combined with robust FYM integration into the topsoil.",
+        "sowing_time": "Time sowing with the onset of the specific season rains or controlled irrigation.",
+        "seed_rate": "16 kg per acre",
+        "harvest_days": 129,
+        "market_grade": "A Grade",
+        "yield_per_acre_kg": 5122,
+        "yield_per_plant_kg_month": 0.27,
+        "growing_stages": [
+          "Preparation",
+          "Sowing & Germination",
+          "Vegetative Growth",
+          "Flowering Phase",
+          "Harvest Ready"
+        ],
+        "water_schedule": [
+          {
+            "stage": "Germination",
+            "days": "Day 1-20",
+            "litres_per_acre": 40000,
+            "litres_per_plant_per_day": 0.37
+          },
+          {
+            "stage": "Vegetative Peak",
+            "days": "Day 20-80",
+            "litres_per_acre": 80000,
+            "litres_per_plant_per_day": 0.51
+          },
+          {
+            "stage": "Maturation",
+            "days": "Day 80-End",
+            "litres_per_acre": 30000,
+            "litres_per_plant_per_day": 0.22
+          }
+        ]
+      },
+      "organic_inputs": {
+        "farmyard_manure_tonnes": 5,
+        "vermicompost_kg": 595,
+        "earthworms_count": 1297,
+        "cowdung_slurry_litres": 481,
+        "neem_cake_kg": 168,
+        "biofertilizer": "VAM (Vesicular Arbuscular Mycorrhiza) fungi for heavy advanced root potassium uptake.",
+        "notes": "Ensure soil is thoroughly moist before applying inputs to prevent bacterial desiccation."
+      }
+    }
+  ]
+}

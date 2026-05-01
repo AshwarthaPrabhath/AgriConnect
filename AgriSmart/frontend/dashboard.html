@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgriConnect</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,700&family=Outfit:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    if (!localStorage.getItem("authToken")) {
+      window.location.replace("index.html");
+    }
+  </script>
+  <style>
+    /* Multi-stage layout specific tweaks */
+    .stage-container {
+      max-width: 1000px;
+      margin: 120px auto 60px;
+      padding: 0 24px;
+    }
+
+    .npk-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-bottom: 32px;
+    }
+
+    .form-stage-card {
+      background: var(--bg-raised);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      padding: 48px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .vertical-group {
+      margin-top: 24px;
+    }
+
+    /* Process Details layout */
+    .process-header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    
+    .btn-back {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: transparent; border: 1px solid var(--border);
+      color: var(--text-secondary); padding: 8px 16px; border-radius: 100px;
+      cursor: pointer; margin-bottom: 24px; font-weight: 500; transition: all 0.2s;
+    }
+    .btn-back:hover { color: var(--primary); border-color: var(--primary); }
+
+    /* Global Card/Badge Styles */
+    .npk-badge {
+      display: flex; gap: 8px; align-items: center;
+      background: var(--bg-surface); padding: 8px 16px; border-radius: 100px;
+      border: 1px solid var(--border);
+    }
+    .npk-badge-key { font-weight: 700; color: var(--text-muted); font-size: 14px; }
+    .npk-badge-val { font-weight: 700; color: var(--text-primary); font-size: 18px; }
+
+    .crop-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; }
+    .crop-rec-card {
+      padding: 32px; display: flex; flex-direction: column;
+    }
+    .crop-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+    .crop-card-name { font-family: var(--font-display); font-size: 24px; color: var(--primary); }
+    .suitability-badge { padding: 4px 12px; border-radius: 100px; font-size: 12px; font-weight: 600; background: var(--primary-light); color: var(--primary); }
+
+    .npk-display { display: flex; flex-wrap: wrap; gap: 16px; }
+
+    .rotation-timeline { margin-top: 32px; }
+    .rot-card { padding: 24px; border: 1px solid var(--border); border-radius: var(--radius-md); }
+
+    /* Loading Animation */
+    @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
+    .btn-analyse.loading { pointer-events: none; animation: pulse 1.5s infinite; background: var(--border); }
+  </style>
+</head>
+
+<body class="dashboard-body" style="overflow-y: auto;">
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🌾</span>
+        <span class="logo-text" style="color: #FACC15;">Agri<span style="color: #38BDF8;">Connect</span></span>
+      </a>
+      <!-- (Center label removed per user request) -->
+
+      <div>
+        <button id="logoutBtn" style="background:transparent; border:1px solid var(--border); color:var(--text-secondary); padding:8px 16px; border-radius:100px; cursor:pointer;" onmouseover="this.style.color='var(--primary)'; this.style.borderColor='var(--primary)'" onmouseout="this.style.color='var(--text-secondary)'; this.style.borderColor='var(--border)'">Logout</button>
+      </div>
+    </div>
+  </nav>
+
+  <script>
+    document.getElementById('logoutBtn').addEventListener('click', () => {
+      localStorage.removeItem("authToken");
+      localStorage.removeItem("userEmail");
+      window.location.replace("index.html");
+    });
+  </script>
+
+  <!-- ══ STAGE 2: INPUT FORM ══════════════════════════════════════════ -->
+  <div id="stage2-form" class="stage-container">
+    <div class="form-stage-card">
+      <div class="sidebar-header" style="text-align: center; margin-bottom: 48px;">
+        <h2>Soil Analysis</h2>
+        <p>Enter your field details to generate a complete organic plan.</p>
+      </div>
+
+      <form id="soilFormBeginner">
+        <div class="form-section-title"><span class="fs-icon">🧪</span> NPK Values (kg/ha)</div>
+        <div class="npk-grid">
+          <div class="input-group" style="margin-bottom:0;">
+            <label for="b-n">Nitrogen (N)</label>
+            <div class="input-wrap"><input type="number" id="b-n" min="0" max="300" placeholder="e.g. 60" /><span class="input-unit">kg/ha</span></div>
+          </div>
+          <div class="input-group" style="margin-bottom:0;">
+            <label for="b-p">Phosphorus (P)</label>
+            <div class="input-wrap"><input type="number" id="b-p" min="0" max="200" placeholder="e.g. 40" /><span class="input-unit">kg/ha</span></div>
+          </div>
+          <div class="input-group" style="margin-bottom:0;">
+            <label for="b-k">Potassium (K)</label>
+            <div class="input-wrap"><input type="number" id="b-k" min="0" max="300" placeholder="e.g. 50" /><span class="input-unit">kg/ha</span></div>
+          </div>
+        </div>
+
+        <div class="form-section-title"><span class="fs-icon">🌍</span> Environment</div>
+        <div class="vertical-group">
+          <div class="input-group">
+            <label for="b-region">State / Region</label>
+            <select id="b-region">
+              <option value="">-- Select State --</option>
+              <option>Andhra Pradesh</option>
+              <option>Assam</option>
+              <option>Bihar</option>
+              <option>Goa</option>
+              <option>Gujarat</option>
+              <option>Haryana</option>
+              <option>Himachal Pradesh</option>
+              <option>Jammu & Kashmir</option>
+              <option>Karnataka</option>
+              <option>Kerala</option>
+              <option>Madhya Pradesh</option>
+              <option>Maharashtra</option>
+              <option>Odisha</option>
+              <option>Punjab</option>
+              <option>Rajasthan</option>
+              <option>Tamil Nadu</option>
+              <option>Telangana</option>
+              <option>Uttar Pradesh</option>
+              <option>Uttarakhand</option>
+              <option>West Bengal</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label for="b-water">Water Source</label>
+            <select id="b-water">
+              <option value="Rainfed">Rainfed</option>
+              <option value="Borewell">Borewell</option>
+              <option value="Canal">Canal Irrigation</option>
+              <option value="Drip Irrigation">Drip Irrigation</option>
+              <option value="Tank / Pond">Tank / Pond</option>
+            </select>
+          </div>
+        </div>
+
+        <div style="margin-top: 48px; text-align: center;">
+          <button type="submit" class="btn-analyse" id="analyseBeginner" style="display: inline-flex; width: auto; padding: 16px 48px; font-size: 18px;">
+            <span class="btn-text">Get Plan</span>
+            <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ══ STAGE 3: CROP LIST ═════════════════════════════════════════ -->
+  <div id="stage3-list" class="stage-container" style="display: none; max-width: 1200px;">
+    <button class="btn-back" id="btnBackToStage2">← Back to Soil Inputs</button>
+    
+    <div class="result-header" style="justify-content: center; text-align: center; border-bottom: none; flex-direction: column;">
+      <h3 style="font-size: 36px;">Possible Crops</h3>
+      <p class="result-meta" id="recMeta" style="font-size: 16px;">Strictly filtered by Climate Resilience & Weather Patterns</p>
+    </div>
+
+    <div class="npk-display" id="npkDisplay" style="justify-content: center; margin-bottom: 48px;">
+      <!-- NPK Snapshot loads here -->
+    </div>
+
+    <!-- Recommendations Grid -->
+    <div class="crop-cards" id="cropCards"></div>
+    
+  </div>
+
+  <!-- ══ STAGE 4: 5-CHAPTER FARMING JOURNEY ══════════════════════ -->
+  <div id="stage4-details" class="stage-container" style="display: none; max-width: 900px;">
+    <div class="stage4-header-row" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 32px; gap: 20px;">
+      <button class="btn-back" id="btnBackToStage3" style="margin-bottom: 0;">← Back to Possible Crops</button>
+      <h2 id="stage4CropTitle" style="font-family: var(--font-display); font-size: 28px; color: var(--primary); margin: 0; white-space: nowrap;">Loading...</h2>
+    </div>
+
+    <!-- Chapter Progress Bar -->
+    <div class="chapter-progress-bar" id="chapterProgressBar">
+      <div class="cp-dot active" data-ch="0">1</div>
+      <div class="cp-line"></div>
+      <div class="cp-dot" data-ch="1">2</div>
+      <div class="cp-line"></div>
+      <div class="cp-dot" data-ch="2">3</div>
+      <div class="cp-line"></div>
+      <div class="cp-dot" data-ch="3">4</div>
+      <div class="cp-line"></div>
+      <div class="cp-dot" data-ch="4">5</div>
+    </div>
+    <div class="chapter-progress-labels">
+      <span>Soil</span><span>Seeds</span><span>Sowing</span><span>Care</span><span>Harvest</span>
+    </div>
+
+    <!-- Chapter Content Panel -->
+    <div id="chapterPanel" class="chapter-panel"></div>
+
+    <!-- Nav Buttons -->
+    <div class="chapter-nav">
+      <button id="btnChapterPrev" class="btn-back" style="display:none;">← Previous</button>
+      <button id="btnChapterNext" class="btn-analyse" style="width:auto; padding: 14px 36px; font-size:16px;">
+        <span class="btn-text">Next Chapter →</span>
+      </button>
+    </div>
+  </div> <!-- End STAGE 4 -->
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

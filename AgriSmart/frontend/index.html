@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login — AgriConnect</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <style>
+    /* Auth Page Specific Styles */
+    body {
+      background: var(--bg-base);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .auth-container {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .auth-card {
+      background: var(--bg-raised);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      padding: 48px;
+      width: 100%;
+      max-width: 480px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    .auth-header {
+      margin-bottom: 32px;
+    }
+    .auth-icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+    .auth-title {
+      font-family: var(--font-display);
+      font-size: 32px;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+    .auth-sub {
+      color: var(--text-secondary);
+      font-size: 16px;
+    }
+    
+    .auth-form {
+      text-align: left;
+    }
+    
+    .auth-btn-group {
+      margin-top: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    
+    .btn-secondary {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-primary);
+      padding: 16px 24px;
+      border-radius: 100px;
+      width: 100%;
+      font-size: 16px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all var(--transition);
+    }
+    .btn-secondary:hover {
+      border-color: var(--primary);
+      background: var(--primary-light);
+      color: var(--primary);
+    }
+    
+    .auth-tabs {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
+    }
+    .auth-tab {
+      color: var(--text-muted);
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 16px;
+      flex: 1;
+      text-align: center;
+      transition: color var(--transition);
+    }
+    .auth-tab.active {
+      color: var(--primary);
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-icon">🌾</span>
+      <span class="logo-text" style="color: #FACC15;">Agri<span style="color: #38BDF8;">Connect</span></span>
+    </a>
+  </div>
+</nav>
+
+<div class="auth-container">
+  <div class="auth-card">
+    <div class="auth-header">
+      <div class="auth-icon">🌱</div>
+      <h1 class="auth-title">Welcome Back</h1>
+      <p class="auth-sub">Enter your details to access your dashboard.</p>
+    </div>
+    
+    <div class="auth-tabs">
+      <div class="auth-tab active" id="tabLogin">Login</div>
+      <div class="auth-tab" id="tabSignup">Sign Up</div>
+    </div>
+
+    <form class="auth-form" id="authForm">
+      <div id="signupFields" style="display: none;">
+        <div class="input-group">
+          <label for="fullName">Full Name</label>
+          <div class="input-wrap">
+            <input type="text" id="fullName" placeholder="e.g. Ramesh Kumar" />
+          </div>
+        </div>
+        <div class="input-group">
+          <label for="phone">Mobile Number</label>
+          <div class="input-wrap">
+            <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX" />
+          </div>
+        </div>
+      </div>
+      <div class="input-group">
+        <label for="email">Email Address</label>
+        <div class="input-wrap">
+          <input type="email" id="email" required placeholder="farmer@agrismart.com" />
+        </div>
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <div class="input-wrap">
+          <input type="password" id="password" required placeholder="••••••••" />
+        </div>
+      </div>
+      
+      <div class="auth-btn-group">
+        <button type="submit" class="btn-analyse">
+          <span class="btn-text" id="btnSubmitText">Log In</span>
+        </button>
+        <div id="authError" style="color: #ef4444; margin-top: 12px; font-size: 14px; text-align: center; display: none;"></div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+  const form = document.getElementById('authForm');
+  const tabLogin = document.getElementById('tabLogin');
+  const tabSignup = document.getElementById('tabSignup');
+  const authTitle = document.querySelector('.auth-title');
+  const authSub = document.querySelector('.auth-sub');
+  const btnSubmitText = document.getElementById('btnSubmitText');
+  const signupFields = document.getElementById('signupFields');
+  
+  let isLogin = true;
+
+  const authError = document.getElementById('authError');
+
+  tabLogin.addEventListener('click', () => {
+    isLogin = true;
+    tabLogin.classList.add('active');
+    tabSignup.classList.remove('active');
+    authTitle.textContent = "Welcome Back";
+    authSub.textContent = "Enter your details to access your dashboard.";
+    btnSubmitText.textContent = "Log In";
+    signupFields.style.display = "none";
+    authError.style.display = "none";
+  });
+
+  tabSignup.addEventListener('click', () => {
+    isLogin = false;
+    tabSignup.classList.add('active');
+    tabLogin.classList.remove('active');
+    authTitle.textContent = "Create Account";
+    authSub.textContent = "Start your organic journey today.";
+    btnSubmitText.textContent = "Sign Up";
+    signupFields.style.display = "block";
+    authError.style.display = "none";
+  });
+
+  // Real Authentication Flow
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+    const name = document.getElementById('fullName').value;
+    const phone = document.getElementById('phone').value;
+
+    authError.style.display = "none";
+    const originalText = btnSubmitText.textContent;
+    btnSubmitText.textContent = isLogin ? "Authenticating..." : "Creating Account...";
+
+    const payload = isLogin ? { email, password } : { email, password, name, phone };
+    const endpoint = isLogin ? "/api/login" : "/api/signup";
+
+    try {
+      const res = await fetch(`http://127.0.0.1:5000${endpoint}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+      const data = await res.json();
+      
+      if (data.success) {
+        localStorage.setItem("authToken", data.token);
+        localStorage.setItem("userEmail", data.user.email);
+        window.location.href = "dashboard.html";
+      } else {
+        authError.textContent = data.message || "Authentication failed.";
+        authError.style.display = "block";
+        btnSubmitText.textContent = originalText;
+      }
+    } catch (err) {
+      authError.textContent = "Could not connect to server.";
+      authError.style.display = "block";
+      btnSubmitText.textContent = originalText;
+    }
+  });
+</script>
+</body>
+</html>
